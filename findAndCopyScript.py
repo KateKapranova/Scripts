@@ -6,8 +6,8 @@ import os
 from shutil import copy
 
 
-directory="C:\\Users\\Katiebear\\Documents\\Studium\\5. Semester\\R_Practice\\KDEF_and_AKDEF\\KDEF"
-dst= "C:\\Users\\Katiebear\\Documents\\Studium\\5. Semester\\R_Practice\\KDEF_and_AKDEF\\KDEF\\Front"
+directory="C:\\Users\\Kapranova\\Documents\\KDEF_and_AKDEF\\KDEF"
+dst= "C:\\Users\\Kapranova\\Documents\\KDEF_and_AKDEF\\KDEF\\Front"
 
 for subdir in os.listdir(directory):
     if subdir != "Front":
